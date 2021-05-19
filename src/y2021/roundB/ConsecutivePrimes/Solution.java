@@ -34,7 +34,6 @@ public class Solution {
         Scanner in = new Scanner(new BufferedReader(new InputStreamReader(getIs(Solution.class, args))));
         int t = in.nextInt(); // Scanner has functions to read ints, longs, strings, chars, etc.
         long start=System.currentTimeMillis();
-        //List<PrimeProduct> primeProducts = new ArrayList(Arrays.asList(new PrimeProduct(1, 2), new PrimeProduct(2, 3)));
         for (int i = 1; i <= t; i++) {
             long z = in.nextLong();
             System.out.printf("Case #%d: %d\n", i, findPrimeProductsSmallerThanOrEqualTo(z));
