@@ -24,9 +24,9 @@ package defaultSample;
 * SOFTWARE.
 */
 
+import java.util.zip.ZipFile;
 import java.util.*;
 import java.io.*;
-import java.util.zip.*;
 
 public class Solution {
     
@@ -36,7 +36,16 @@ public class Solution {
         long start=System.currentTimeMillis();
         for (int i = 1; i <= t; i++) {
             // int n = in.nextInt();
-            // int k = in.nextInt();
+            // long n = in.nextLong();
+            // String n = in.next();
+            // char n = in.next().charAt(0);
+            // double n = in.nextDouble();
+            // float n = in.nextFloat();
+            // boolean n = in.nextBoolean();
+            // BigDecimal n = in.nextBigDecimal();
+            // BigInteger n = in.nextBigInteger();
+            // byte n = in.nextByte();
+            // short n = in.nextShort();
             
             System.out.printf("Case #%d: %d\n", i, 0);
         }
