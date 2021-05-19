@@ -74,6 +74,7 @@ public class Solution {
         return prime;
     }
 
+    // Miller Rabin algorithm
     private static boolean isPrime(long candidate, long accuracy) {
         long d, s;
         if (candidate == 2)
